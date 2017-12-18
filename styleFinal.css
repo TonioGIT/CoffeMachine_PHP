@@ -1,0 +1,490 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Press Start 2P' , sans ;
+	font-size: 12px;
+}
+
+body {
+	background-color: grey;
+}
+
+.ipad {
+	height : 1024px ;
+	width: 768px;
+	margin: auto;
+}
+
+.view-top {
+	background-image: url('img/front/top.jpg');
+	height: 80px;
+	width: 768px;
+	padding: 20px 0;
+}
+
+/* ------------------------- ROW MACHINE EXTER -------------------------------- */
+iframe {
+	border : none;
+	height: 874px;
+	width: 608px;
+	overflow: hidden ;
+}
+
+.row-machine {
+	position: relative;
+}
+
+.machine-left {
+	background-image: url('img/front/left.jpg');
+	height: 874px;
+	width: 120px;
+	position: absolute;
+	left: 0;
+}
+
+.machine {
+	background-image: url('img/front/fond-inter.jpg');
+	height: 874px;
+	width: 608px;
+	position: absolute;
+	left : 120px;
+}
+
+.machine-right {
+	background-image: url('img/front/right.jpg');
+	height: 874px;
+	width: 40px;
+	position: absolute;
+	right : 0;
+}
+
+/* ------------------------- MACHINE EXTER -------------------------------- */
+.machine-exter {
+	position: relative;
+}
+
+.machine-top, .machine-top2 {
+	height: 220px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.machine-top {
+	background-image: url('img/front/machine-top.jpg');
+}
+
+.machine-center , .machine-center2 {
+	height: 400px;
+	width: 100%;
+	position: absolute;
+	top: 220px;
+}
+
+.machine-distrib {
+	height: 202px;
+	width: 100%;
+	position: absolute;
+	top: 620px; 
+}
+
+/* ------------------------- MONNAIE -------------------------------- */
+
+.coins {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin: auto;
+	width: 700px;
+}
+
+.counter {
+	text-align: center;
+	background-color: black;
+	color: white;
+	max-width: 100px;
+	margin-top: 10px;
+	margin-left: 20px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.monnayeur {
+	margin-left: 35px;
+	margin-top: 40px;
+}
+
+
+.piece {
+	opacity: 0.8;
+}
+
+.outils {
+	margin-left: 400px;
+	margin-bottom: 25px;
+}
+
+.piece:hover {
+	opacity: 1;
+	-webkit-filter: contrast(150%);
+	filter: contrast(150%);
+}
+
+
+/* ------------------------- MACHINE ECRAN MIDDLE -------------------------------- */
+
+.ecran-central {
+	margin :auto ;
+	background-image: url('img/front/ecran-central.jpg');
+	height: 360px;
+	width: 490px;
+	padding: 20px;
+}
+
+.ecran-lcd {
+	height: 100px;
+	width : 490px;
+	background-image: url('img/front/ecranLCD.jpg');
+}
+
+.ecran-lcd-text {
+	text-align: center;
+	padding: 30px 20px;
+	max-width: 400px;
+	color: green;
+}
+
+/* ------------------------- Sucre -------------------------------- */
+
+.select-sugar {
+	height: 40px;
+	width: 490px;
+	background-image: url('img/front/background-grey80.jpg');	
+	margin: 4px 0 2px; 	
+	padding: 5px 2px;
+}
+
+.select-sugar-left {
+	background-image: url('img/front/background-grey40.jpg');
+	height : 100%;
+	width: 242px;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;	
+}
+
+.sugar-minus {
+	background-image: url('img/front/btn-black-minus.jpg');	
+	height: 40px;
+	width: 40px;
+}
+
+.sugar-minus-down {
+	background-image: url('img/front/btn-black-minus-down.jpg');	
+	height: 40px;
+	width: 40px;
+}
+
+.sugar-plus {
+	background-image: url('img/front/btn-black-plus.jpg');	
+	height: 40px;
+	width: 40px;
+}
+
+.sugar-plus-down {
+	background-image: url('img/front/btn-black-plus-down.jpg');	
+	height: 40px;
+	width: 40px;
+}
+
+.select-sugar-right {
+	background-image: url('img/front/background-grey40.jpg');
+	height : 100%;
+	width: 244px;	
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.led-sugar {
+	background-image: url('img/front/lampe-off.jpg');
+	height: 25px;
+	width: 25px;
+}
+
+.led-sugar-on {
+	background-image: url('img/front/lampe-on.jpg');
+	height: 25px;
+	width: 25px;
+}
+
+/* ------------------------- Boissons -------------------------------- */
+
+.choix-boisson-left {
+	width : 245px;
+	float: left;
+}
+
+.choix-boisson-right {
+	width : 245px;
+	float: right;
+}
+
+.drink , .drinkEmpty {
+	height: 40px;
+	width : 223px;
+	background-image: url('img/front/background-grey80.jpg');
+	border-radius: 10px;
+	padding: 5px 10px;
+	margin: 2px 0; 
+}
+
+.led-drink {
+	background-image: url('img/front/btn.jpg');
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.led-drink-over {
+	background-image: url('img/front/btn-hover.jpg');
+}
+
+.led-drink-down {
+	background-image: url('img/front/btn-down.jpg');
+}
+
+.drink p , .drinkEmpty p {
+	background-color: white;
+	height: 30px;
+	width: 120px;
+	display: inline-block;
+	margin: 5px 8px;
+	padding: 0 10px;
+	line-height: 30px;
+	font-size: 10px;
+	vertical-align: top;
+}
+
+
+/*--------------------------------------GOBELET------------------------------------*/
+
+#nicheCup {
+	height: 160px;
+	width: 160px;
+	top: 60px;
+	background-image: url('img/cup/niche.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 408px;
+}
+
+#cup { 
+	width: 140px;
+	position: absolute;
+	height: inherit;
+	padding: 10px;
+}
+
+.ingredient{
+	background-size:100%;	
+	position: absolute;
+	opacity: 0.8;
+	z-index: 10;
+}
+
+#gobelet {  
+	background-size: cover;
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	background-image: url(img/cup/cup.png);
+	background-repeat: no-repeat;
+	z-index: 500;
+}
+
+#water { 
+	bottom: 25px;
+	width: 100%;
+	height: 13px;
+	background-image: url(img/cup/cup-assets/water.png);
+	background-repeat: no-repeat;
+	z-index: 20;
+}
+
+#water2 { 
+	bottom: 25px;
+	width: 100%;
+	height: 27px;
+	background-image: url(img/cup/cup-assets/water.png);
+	background-repeat: no-repeat;
+	z-index: 20;
+}
+
+#waterT1 {
+	bottom: 45px;
+	width: 100%;
+	height: 15px;
+	background-image: url(img/cup/cup-assets/water.png);
+	background-repeat: no-repeat;
+	z-index: 20;
+}
+
+#waterT2 {
+	bottom: 0;
+	width: 100%;
+	height: 45px;
+	background-image: url(img/cup/cup-assets/water.png);
+	background-repeat: no-repeat;
+	z-index: 20;
+}
+
+#milk {
+	bottom: 38px;
+	width: 100%;
+	height: 15px;
+	background-image: url(img/cup/cup-assets/milk.png);
+	background-repeat: no-repeat;
+	z-index: 20;
+}
+
+#coffee {
+	top: 115px;
+	width: 100%;
+	height: 25px;
+	background-image: url(img/cup/cup-assets/liquidCoffee.png);
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+
+#cocoa {
+	top: 115px;
+	width: 100%;
+	height: 25px;
+	background-image: url(img/cup/cup-assets/cocoa.png);
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+
+#tea { 
+	left: 80px;
+	top: 67px;
+	width: 20%;
+	height: inherit;
+	background-image: url(img/cup/cup-assets/tea.png);
+	background-repeat: no-repeat;
+	transform: rotate(-40deg);
+	z-index: 25;
+}
+
+#tea2 { 
+	left: 65px;
+	top: 80px;
+	width: 20%;
+	height: inherit;
+	background-image: url(img/cup/cup-assets/tea.png);
+	background-repeat: no-repeat;
+	z-index: 25;
+}
+
+.sucre {
+	background-size: 40%;
+	position: absolute;
+	opacity: 0.3;
+}
+
+#sucre1 { 
+	left: 30px;
+	top: 124px;
+	width: 30%;
+	height: inherit;
+	background-image: url(img/cup/sucre.png);
+	background-repeat: no-repeat;
+	transform: rotate(15deg);
+	z-index: 25;
+}
+
+#sucre2 { 
+	left: 85px;
+	top: 115px;
+	width: 30%;
+	height: inherit;
+	background-image: url(img/cup/sucre.png);
+	background-repeat: no-repeat;
+	transform: rotate(-20deg);
+	z-index: 25;
+}
+
+#sucre3 { 
+	left: 100px;
+	top: 115px;
+	width: 30%;
+	height: inherit;
+	background-image: url(img/cup/sucre.png);
+	background-repeat: no-repeat;
+	transform: rotate(-20deg);
+	z-index: 25;
+}
+
+#sucre4 { 
+	left: 96px;
+	top: 92px;
+	width: 30%;
+	height: inherit;
+	background-image: url(img/cup/sucre.png);
+	background-repeat: no-repeat;
+	transform: rotate(-40deg);
+	z-index: 25;
+}
+
+#sucre5 { 
+    left: 140px;
+    top: 280px;
+    width: 172px;
+    height: 134px;
+    background-image: url(images/sucre.png);
+    background-repeat:no-repeat;
+    transform: rotate(15deg);
+    z-index: 25;
+}
+
+/* -------------------- CSS INTERIEUR ------------------------ */
+
+.machine2 {
+	background-image: url('img/front/fond-inter.jpg');
+	height: 814px;
+	width: 548px;
+	padding: 30px;
+	position: absolute;
+}
+
+.machine-inter {
+	position: relative;
+	width: 548px;
+	height : 814px;
+} 
+
+.machine-center2 {
+	color : white ;
+}
+
+.chargeur {
+	height : 40px ;
+	width : 50%;
+	display : flex;
+	align-items: center;
+	margin: 10px; 
+}
+
+.chargeur img {
+	height : 100% ;
+	width : auto;
+}
+
+.chargeur p {
+	padding-left: 10px;
+}
