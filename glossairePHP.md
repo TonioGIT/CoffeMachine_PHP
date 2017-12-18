@@ -1,7 +1,7 @@
-##GLOSSAIRE PHP - Antoine DOUSSAN.
+#GLOSSAIRE PHP - Antoine DOUSSAN.
 
 
-# Syntaxe "echo" raccourcie:
+## Syntaxe "echo" raccourcie:
 ```
 A la place de <?php echo "En attente" ?>
 on peut écrire <?= "En attente" ?>
