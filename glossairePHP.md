@@ -8,14 +8,12 @@ on peut écrire <?= "En attente" ?>
 ```
 
 ## Tableau de fonctions:
-```
 FONCTION PHP | ROLE DE LA FONCTION
 -------------- | ----------------------------------------------------
 date() | dsfgsgf
 getdate() | dfgsdfge
 time() | qfdsgsdgfdsg
 
-```
 
 
 
